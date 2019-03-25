@@ -27,17 +27,13 @@
 
 # What is gitlab-ci-python?
 
-This is the image that the internal gitlab-ci uses to build the js files
-:
+This is the image that the internal gitlab-ci uses to build the python package
+
 ### Tools installed inside the image
-- go-1.11
-- curl
-- git
-- bash
-- taskfile
-- golangci-lint
-- libc-dev
-- docker
+- python3
+- pip
+- setuptools
+- wheel
 
 # License
 
